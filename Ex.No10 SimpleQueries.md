@@ -81,7 +81,8 @@ american(west).
 ```
 
 ### Output:
-![WhatsApp Image 2024-05-06 at 11 16 41 AM](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/562c97e5-6472-4c0c-b066-32a25a33e34a)
-
+```
+![Screenshot (6)](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/b35d0ff6-61c1-44dc-8a5d-3929348afef3)
+```
 ### Result:
 Thus the prolog programs were executed successfully and the answer of query was found.
