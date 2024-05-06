@@ -34,8 +34,9 @@ food(chicken).
 food(peanuts).
 
 ### Output:
+```
 ![Screenshot (4)](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/957e6f8f-84b0-4a8e-87cf-8646a89f78e8)
-
+```
 ### Task 2:
 Consider the following facts and represent them in predicate form: <br>              
 1.	Steve likes easy courses. <br> 
@@ -52,6 +53,7 @@ hard(sciencecourse).
 easycourse(X):- 
 course(X,dept(havefun)). 
 course(bk301,dept(havefun)).
+```
 
 ### Output:
 ![WhatsApp Image 2024-05-06 at 11 14 38 AM](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/04e8d2da-22e9-4f69-9b2b-e8da5f9cb1db)
