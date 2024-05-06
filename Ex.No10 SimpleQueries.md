@@ -33,7 +33,6 @@ food(apple).
 food(chicken).
 food(peanuts).
 
-
 ### Output:
 ```
 ![image](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/36ff599c-c856-476b-8087-d4d888ff1022)
