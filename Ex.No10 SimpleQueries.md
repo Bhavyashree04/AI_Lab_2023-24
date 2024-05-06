@@ -34,9 +34,7 @@ food(chicken).
 food(peanuts).
 
 ### Output:
-```
-![image](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/36ff599c-c856-476b-8087-d4d888ff1022)
-```
+![Screenshot (1)](https://github.com/samyuktha161/AI_Lab_2023-24/assets/160303229/458f26f0-c0b1-43b0-b33c-7148bc1803bb)
 
 ### Task 2:
 Consider the following facts and represent them in predicate form: <br>              
@@ -56,9 +54,7 @@ course(X,dept(havefun)).
 course(bk301,dept(havefun)).
 
 ### Output:
-```
-![image](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/6d3f2b53-45f9-4bb6-89a4-a5e42cc55fe3)
-```
+![WhatsApp Image 2024-05-06 at 11 14 38 AM](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/04e8d2da-22e9-4f69-9b2b-e8da5f9cb1db)
 
 ### Task 3:
 Consider the statement <br> 
@@ -81,9 +77,7 @@ american(west).
 ```
 
 ### Output:
-```
-![image](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/3292c402-2033-4266-9e30-b475e5b02410)
+![WhatsApp Image 2024-05-06 at 11 16 41 AM](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/562c97e5-6472-4c0c-b066-32a25a33e34a)
 
-```
 ### Result:
 Thus the prolog programs were executed successfully and the answer of query was found.
