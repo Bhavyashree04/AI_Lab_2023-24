@@ -56,7 +56,9 @@ course(bk301,dept(havefun)).
 ```
 
 ### Output:
-![WhatsApp Image 2024-05-06 at 11 14 38 AM](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/04e8d2da-22e9-4f69-9b2b-e8da5f9cb1db)
+```
+![Screenshot 2024-05-06 114604](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/562f82e0-6c7a-4747-89de-602aa953fa23)
+```
 
 ### Task 3:
 Consider the statement <br> 
