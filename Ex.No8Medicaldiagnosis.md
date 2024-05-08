@@ -48,7 +48,7 @@ symptom(raju,sore_throat).
 ```
 
 ### Output:
-![WhatsApp Image 2024-03-31 at 9 03 57 PM](https://github.com/shanmuga2004/AI_Lab_2023-24/assets/114944625/0fb66d95-5e2e-4376-88cb-5419c62a67fb)
+![WhatsApp Image 2024-03-31 at 9 03 57 PM](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/114944625/0fb66d95-5e2e-4376-88cb-5419c62a67fb)
 
 ### Result:
 Thus the simple medical diagnosis system was built sucessfully.
