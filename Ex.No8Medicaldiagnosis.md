@@ -1,6 +1,6 @@
 # Ex.No: 8  Logic Programming –  Medical Diagnosis Expert System
-### DATE:23.03.24                                                                            
-### REGISTER NUMBER :212221060027 
+### DATE: 23.03.2024                                                                            
+### REGISTER NUMBER : 212221060027
 ### AIM: 
 Write a Prolog program to build a medical Diagnosis Expert System.
 ###  Algorithm:
@@ -15,32 +15,40 @@ Write a Prolog program to build a medical Diagnosis Expert System.
 
 ### Program:
 ```
-symptom(Patient,fever), symptom(Patient,headache), symptom(Patient,runny_nose), symptom(Patient,rash).
+hypothesis(Patient,german_measles) :-
+	symptom(Patient,fever),
+	symptom(Patient,headache),
+	symptom(Patient,runny_nose),
+	symptom(Patient,rash).
 hypothesis(Patient,flu) :-
-symptom(Patient,fever), symptom(Patient,headache), symptom(Patient,body_ache),
-symptom(Patient,conjunctivitis),symptom(Patient,chills), symptom(Patient,sore_throat),
-symptom(Patient,runny_nose), symptom(Patient,cough).
+        symptom(Patient,fever),
+       symptom(Patient,headache),
+	symptom(Patient,body_ache),
+	symptom(Patient,conjunctivitis),
+	symptom(Patient,chills),
+	symptom(Patient,sore_throat),
+	symptom(Patient,runny_nose),
+	symptom(Patient,cough).
 hypothesis(Patient,common_cold) :-
-symptom(Patient,headache), symptom(Patient,sneezing), symptom(Patient,sore_throat).
+	symptom(Patient,headache),
+	symptom(Patient,sneezing),
+	symptom(Patient,sore_throat).
 hypothesis(Patient,chicken_pox) :-
-symptom(Patient,fever), symptom(Patient,chills),
-symptom(Patient,body_ache), symptom(Patient,rash).
+	symptom(Patient,fever),
+	symptom(Patient,chills),
+	symptom(Patient,body_ache),
+	symptom(Patient,rash).
 hypothesis(Patient,measles) :-
-symptom(Patient,cough), symptom(Patient,sneezing), symptom(Patient,runny_nose).
+	symptom(Patient,cough),
+	symptom(Patient,sneezing),
+	symptom(Patient,runny_nose).
 symptom(raju,headache).
 symptom(raju,sneezing).
 symptom(raju,sore_throat).
 ```
 
-
-
-
 ### Output:
-```
-![image](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/c7c697d0-c2b6-4b6d-945f-497f93cf29d6)
-```
-
-
+![WhatsApp Image 2024-03-31 at 9 03 57 PM](https://github.com/shanmuga2004/AI_Lab_2023-24/assets/114944625/0fb66d95-5e2e-4376-88cb-5419c62a67fb)
 
 ### Result:
 Thus the simple medical diagnosis system was built sucessfully.
