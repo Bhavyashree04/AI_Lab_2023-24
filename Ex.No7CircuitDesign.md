@@ -1,6 +1,6 @@
 # Ex.No: 7  Logic Programming –  Logic Circuit Design
-### DATE:16.03.24                                                                            
-### REGISTER NUMBER :212221060027 
+### DATE: 16.03.2024                                                                          
+### REGISTER NUMBER : 212221060027
 ### AIM: 
 To write a logic program to design a circuit like half adder and half subtractor.
 ###  Algorithm:
@@ -15,17 +15,37 @@ To write a logic program to design a circuit like half adder and half subtractor
 
 ### Program:
 ```
-and(0,0,0). and(0,1,0). and(1,1,1). and(1,0,0). or(0,0,0). or(0,1,1). or(1,0,1). or(1,1,1). xor(0,0,0). xor(0,1,1). xor(1,0,1). xor(1,1,0). not(0,1). not(1,0). halfadder(A,B,S,C):- xor(A,B,S), and(A,B,C). halfsubtractor(A,B,Diff,Bo):- xor(A,B,Diff), not(A,X), and(B,X,Bo). fulladder(A, B, Cin, Sum, Cout) :- halfadder(A, B, S1, C1),
-halfadder(S1, Cin, Sum, C2),
-or(C1, C2, Cout).
+xor(0,1,1).
+xor(0,0,0).
+xor(1,0,1).
+xor(1,1,0).
+and(1,1,1).
+and(0,0,0).
+and(0,1,0).
+and(1,0,0).
+not(0,1).
+not(1,0).
+or(0,1,1).
+or(1,0,1).
+or(0,0,0).
+or(1,1,1).
+halfadder(A,B,Sum,Carry):-
+    xor(A,B,Sum),
+    and(A,B,Carry).
+halfsubtractor(A,B,Diff,Carry):-
+    xor(A,B,Diff),
+    not(A,C),
+    and(C,B,Carry).
+fulladder(A,B,Cin,S,Cout):-
+    xor(A,B,X),
+    xor(X,Cin,S),
+    and(X,Cin,Y),
+    and(A,B,Z),
+    or(Y,Z,Cout).
 ```
-
 
 ### Output:
-```
-![image](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/123474504/3c49a61d-a17d-4575-85be-94f4f8b11d90)
-```
-
+![WhatsApp Image 2024-03-31 at 8 58 29 PM](https://github.com/shanmuga2004/AI_Lab_2023-24/assets/114944625/11ff7a64-3afc-4104-a92a-ae9d5b20a8b5)
 
 
 ### Result:
