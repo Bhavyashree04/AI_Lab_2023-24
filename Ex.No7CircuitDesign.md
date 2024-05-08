@@ -45,7 +45,7 @@ fulladder(A,B,Cin,S,Cout):-
 ```
 
 ### Output:
-![WhatsApp Image 2024-03-31 at 8 58 29 PM](https://github.com/shanmuga2004/AI_Lab_2023-24/assets/114944625/11ff7a64-3afc-4104-a92a-ae9d5b20a8b5)
+![WhatsApp Image 2024-03-31 at 8 58 29 PM](https://github.com/Bhavyashree04/AI_Lab_2023-24/assets/114944625/11ff7a64-3afc-4104-a92a-ae9d5b20a8b5)
 
 
 ### Result:
